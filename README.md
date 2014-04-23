@@ -1,4 +1,7 @@
 cjlyth.github.io
 ================
 
-My public face
+http://cjlyth.com
+
+My public profile, things like resume and portfolio.
+
