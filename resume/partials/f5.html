@@ -10,7 +10,7 @@
     <h4>{{experience.company}} <small>{{experience.dates}}</small></h4>
   </div>
   <dl class="col-md-10 col-md-offset-1">
-    <dt ng-repeat-start="project in experience.projects">{{project.title}}<span class="label label-default pull-right">{{project.dates}}</span></dt>
+    <dt ng-repeat-start="project in experience.projects"><h5>{{project.title}} <small>{{project.dates}}</small><h5></dt>
     <dd ng-repeat-end>
       <ul class="list-inline">
         <li ng-repeat="role in project.roles"><span class="label label-default">{{role}}</span></li>
