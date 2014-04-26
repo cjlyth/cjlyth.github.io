@@ -5,16 +5,17 @@
 </div>
 <hr/>
 <h3>Professional Experience</h3>
-
-<h4>Booz Allen Hamilton <small>2004-Present</small></h4>
-<h4>US ARMY <small>1997-2004</small></h4>
-
-
-
-
-
-
-
-
-
-
+<div class="row" ng-repeat="experience in resume.experience">
+  <div class="col-md-12">
+    <h4>{{experience.company}} <small>{{experience.dates}}</small></h4>
+  </div>
+  <dl class="col-md-10 col-md-offset-1">
+    <dt ng-repeat-start="project in experience.projects">{{project.title}}<span class="label label-default pull-right">{{project.dates}}</span></dt>
+    <dd ng-repeat-end>
+      <ul class="list-inline">
+        <li ng-repeat="role in project.roles"><span class="label label-default">{{role}}</span></li>
+      </ul>
+      <p ng-repeat="description in project.description">{{description}}</p>
+    </dd>
+  </dl>
+</div>

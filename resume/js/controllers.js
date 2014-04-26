@@ -4,8 +4,8 @@ angular.module('resumeApp.controllers', [])
   .controller('GridCtrl', [function() {
 
   }])
-  .controller('ResumeCtrl', [function() {
-
+  .controller('ResumeCtrl', ['$scope','resume',function($scope,resume) {
+    $scope.resume = resume;
   }])
 
 ;
