@@ -5,3 +5,6 @@ dt {
 dd {
    margin-left: 20px;
 }
+dd p {
+	margin: 0;
+}

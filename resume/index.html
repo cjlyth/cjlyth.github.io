@@ -49,6 +49,10 @@
     $script.ready('app', function () {
       console.log('app loaded');
     }); */
+    /* Script load debug 
+    $script.ready('moment', function () {
+      console.log('moment loaded');
+    }); */
 
     /* load scripts for the "jQuery" bundle */
     $script([
@@ -85,6 +89,11 @@
     $script.ready('ngCore', function () {
       /* load scripts for the "ngModules" bundle */
       $script(ngModules, 'ngModules');
+      /* load scripts for the "moment" bundle */    
+      $script([
+        'lib/moment/moment.min.js',
+        'lib/angular-moment/angular-moment.min.js'
+      ], 'moment');
     });
     
     /* load scripts for the "app" bundle */    

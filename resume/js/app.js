@@ -4,7 +4,8 @@ angular.module('resumeApp', [
   'resumeApp.filters',
   'resumeApp.services',
   'resumeApp.directives',
-  'resumeApp.controllers'
+  'resumeApp.controllers',
+  'angularMoment'
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/', {

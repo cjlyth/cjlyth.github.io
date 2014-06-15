@@ -5,9 +5,9 @@
 </div>
 <hr/>
 <h3>Professional Experience</h3>
-<div class="row" ng-repeat="experience in resume.experience">
+<div class="row" ng-repeat="experience in resume.experience | orderBy:dates:true">
   <div class="col-md-12">
-    <h4>{{experience.company}} <small>{{experience.dates}}</small></h4>
+    <h4>{{experience.company}} <small ng-repeat="date in experience.dates track by $index">{{date}}</small></h4>
   </div>
   <dl class="col-md-10 col-md-offset-1">
     <dt ng-repeat-start="project in experience.projects"><h5>{{project.title}} <small>{{project.dates}}</small><h5></dt>

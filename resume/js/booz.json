@@ -1,12 +1,15 @@
 {
   "company": "Booz Allen Hamilton",
-  "dates": "2003-Present",
+  "dates": [
+    "2003-12-29",
+    ""
+  ],
   "projects": [
     {
       "title": "Digital Information Gathering System (DIGS)",
       "dates": [
-        "August 2011",
-        "January 2012"
+        "2011-August-01",
+        "2012-January-01"
       ],
       "roles": [
         "System Architect",
@@ -21,8 +24,8 @@
     {
       "title": "Internet Search Execution Environment (iSEE)",
       "dates": [
-        "July 2010",
-        "July 2011"
+        "2010-July-01",
+        "2011-July-01"
       ],
       "roles": [
         "Solution Architect",
@@ -43,8 +46,8 @@
     {
       "title": "Open Source Intelligence (OSINT) Solutions",
       "dates": [
-        "August 2009",
-        "June 2010"
+        "2009-August-01",
+        "2010-June-01"
       ],
       "roles": [
         "Solutions Architect"
@@ -63,8 +66,8 @@
     {
       "title": "General (Applies to all projects)",
       "dates": [
-        "June 2007",
-        "August 2009"
+        "2007-June-01",
+        "2009-August-01"
       ],
       "roles": [],
       "description": [
@@ -81,8 +84,8 @@
     {
       "title": "Digital Biometrics Project",
       "dates": [
-        "June 2007",
-        "August 2009"
+        "2007-June-01",
+        "2009-August-01"
       ],
       "roles": [],
       "description": [
@@ -95,8 +98,8 @@
     {
       "title": "Oscar Project",
       "dates": [
-        "June 2007",
-        "August 2009"
+        "2007-June-01",
+        "2009-August-01"
       ],
       "roles": [],
       "description": [
@@ -112,8 +115,8 @@
     {
       "title": "Global Traceroute Project",
       "dates": [
-        "June 2007",
-        "August 2009"
+        "2007-June-01",
+        "2009-August-01"
       ],
       "roles": [],
       "description": [
@@ -126,8 +129,8 @@
     {
       "title": "Pepsi Horizon Scanning Project",
       "dates": [
-        "June 2007",
-        "August 2009"
+        "2007-June-01",
+        "2009-August-01"
       ],
       "roles": [],
       "description": [
@@ -146,8 +149,8 @@
     {
       "title": "Composable Applications Project",
       "dates": [
-        "June 2007",
-        "August 2009"
+        "2007-June-01",
+        "2009-August-01"
       ],
       "roles": [],
       "description": [
@@ -158,8 +161,8 @@
     {
       "title": "GDSN Project",
       "dates": [
-        "November 2006",
-        "May 2007"
+        "2006-November-01",
+        "2007-May-01"
       ],
       "roles": [],
       "description": [
@@ -175,8 +178,8 @@
     {
       "title": "Intrack Project",
       "dates": [
-        "November 2006",
-        "May 2007"
+        "2006-November-01",
+        "2007-May-01"
       ],
       "roles": [],
       "description": [
@@ -200,8 +203,8 @@
     {
       "title": "Tra2es Project",
       "dates": [
-        "April 2005",
-        "October 2006"
+        "2005-April-01",
+        "2006-October-01"
       ],
       "roles": [],
       "description": [
@@ -212,8 +215,8 @@
     {
       "title": "NPAT Tool Project",
       "dates": [
-        "April 2005",
-        "October 2006"
+        "2005-April-01",
+        "2006-October-01"
       ],
       "roles": [],
       "description": [
@@ -232,8 +235,8 @@
     {
       "title": "RAB Tool Project",
       "dates": [
-        "June 2004",
-        "March 2005"
+        "2004-June-01",
+        "2005-March-01"
       ],
       "roles": [],
       "description": [
@@ -246,8 +249,8 @@
     {
       "title": "Project Timeline",
       "dates": [
-        "January 2004",
-        "May 2004"
+        "2004-January-01",
+        "2004-May-01"
       ],
       "roles": [],
       "description": [
@@ -263,8 +266,8 @@
     {
       "title": "IAIP Dashboard",
       "dates": [
-        "January 2004",
-        "May 2004"
+        "2004-January-01",
+        "2004-May-01"
       ],
       "roles": [],
       "description": [

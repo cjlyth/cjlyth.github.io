@@ -1,12 +1,12 @@
 {
   "company": "US ARMY",
-  "dates": "1997-2004",
+  "dates": ["1997-09-29","2003-12-29"],
   "projects": [
     {
       "title": "Various Projects",
       "dates": [
-        "March 1998",
-        "December 2003"
+        "1998-03-01",
+        "2003-12-29"
       ],
       "roles": [
         "Software Developer",
