@@ -1,217 +1,26 @@
 'use strict';
-/* Static Resume Service  */
+/* Resume Service based on JSON data  */
 angular.module('resumeApp.services')
-.value('resume', {
-  experience: [{
-    company: 'Booz Allen Hamilton',
-    dates: '2003-Present',
-    projects: [{ 
-      title: 'Digital Information Gathering System (DIGS)',
-      dates: ['August 2011', 'January 2012'],
-      roles: ['System Architect', 'Technical Lead'],
-      description: [
-        'Designed a swing GUI based on the NetBeans platform to visualize and manipulate graph structures',
-        'Integrated Gephi, yFiles, and Booz Allen proprietary code to create a robust information discovery platform',
-        'Created API’s and SPI’s for junior team members to use, and mentored as necessary to ensure success'
-      ]
-    }, {
-      title: 'Internet Search Execution Environment (iSEE)',
-      dates: 'July 2010 - July 2011',
-      roles: ['Solution Architect', 'Technical Lead'],
-      description: [
-        'Designed an enterprise level system that simulated the infrastructure of the internet for use in training environments',
-        'Quickly responded to rapidly evolving client requirements, provide a high level of service and satisfaction to our client',
-        'Integrated multiple enterprise open source applications (Heritrix, Wayback, Nutch) to suit the needs of the project',
-        'Designed and developed API hooks in open source applications to collect metrics relevant to the client’s needs',
-        'Integrated software from a subcontractor into the environment to allow for the collection of more metric data',
-        'Designed and developed an interface for instructors to monitor and manipulate a student’s activity in the environment',
-        'Collected hundreds of gigabytes of web pages to be searched and rendered in the environment while offline, making rendering nearly identical to the original online representation',
-        'Presented multiple very successful demos to very senior members of the intelligence community',
-        'Generated a high level of excitement in the instructor community for the use of this tool'
-      ]
-    }, { 
-      title: 'Open Source Intelligence (OSINT) Solutions',
-      dates: ['August 2009', 'June 2010'],
-      roles: ['Solutions Architect'],
-      description: [
-        'Designed multiple enterprise level OSINT Exploitation systems to suit the needs of various clients',
-        'Effectively communicated designs and ideas to various audiences; various techniques were used including, but not limited to, white papers, PowerPoint presentations and verbal. ',
-        'Frequently met with senior decision makers within Booz Allen as well as Government Clients',
-        'Generated more than 12 opportunities, tailored to the capabilities of our team as well as the client’s needs',
-        'Designed developed and lead a team of developers that mined information out of a collection of resumes for all Booz Allen staff',
-        'Implemented and used advanced text analytic algorithms (Latent Dirichlet Allocation, Latent Semantic Indexing, Naive Bayes Classifiers and other similar algorithms) to model and index resume data',
-        'Leveraged these technologies to market our skills and capabilities to clients as well as other Booz Allen Teams',
-        'Assessed graph visualization toolkits including Gephi, Walrus, InfoVis, Protovis as well as others'
-      ]
-    }, { 
-      title: 'General (Applies to all projects)',
-      dates: ['June 2007', 'August 2009'],
-      roles: [],
-      description: [
-        'Configured and maintained a team maven repository (Apache Archiva)',
-        'Configured and maintained a team continuous integration server (Apache Continuum)',
-        'Configured multiple Apache Maven multi-module projects',
-        'Configured and maintained source control (Subversion)',
-        'Configured and maintained defect tracking tool (Bugzilla)',
-        'Provided my skills as a technical mentor for multiple teams ',
-        'Promoted and taught test driven development practices for multiple projects and development teams ',
-        'Promoted and taught the use of mock frameworks for unit testing '
-      ]
-    }, { 
-      title: 'Digital Biometrics Project',
-      dates: ['June 2007', 'August 2009'],
-      roles: [],
-      description: [
-        'Designed an enterprise level system that integrated behavioral biometrics sensors ',
-        'Conducted design meetings with clients to ensure requirements were accurately captured ',
-        'Lead a team of 5 developers that included sub contractors in a distributed environment  ',
-        'Coordinated developments with 3rd party development teams (not subcontractors) to ensure requirements were met by both teams '
-      ]
-    }, { 
-      title: 'Oscar Project',
-      dates: ['June 2007', 'August 2009'],
-      roles: [],
-      description: [
-        'Designed an enterprise level system that tracked Intelligence requirements',
-        'Conducted design meetings with clients to ensure requirements were accurately captured',
-        'Primarily used the Hibernate, Spring, and Wicket frameworks',
-        'Conducted bi weekly peer code reviews',
-        'Lead a team of 5 developers, assigning development tasks and coordinating efforts',
-        'Assigned components to developers based on their skill sets allowing individuals to grow at a rate that was comfortable to them and the project',
-        'Provided the team with insight and accepted input to the system design '
-      ]
-    }, { 
-      title: 'Global Traceroute Project',
-      dates: ['June 2007', 'August 2009'],
-      roles: [],
-      description: [
-        'Attended and coordinated meetings with clients to obtain requirements',
-        'Designed a SOA approach that allowed for modular deployment',
-        'Identified technologies and frameworks to be used',
-        'Provided developers with technical guidance during implementation '
-      ]
-    }, { 
-      title: 'Pepsi Horizon Scanning Project',
-      dates: ['June 2007', 'August 2009'],
-      roles: [],
-      description: [
-        'Attended and coordinated client meetings to obtain requirements',
-        'Designed and implemented a fully functioning, proof of concept',
-        'Leveraged google alerts using the JavaMail API to parse news alerts',
-        'Consumed the Clearforest Web service (prior to Reuters purchase and OpenCalais release) to extract entities from news alerts',
-        'Designed and implemented a Apache Wicket based GUI that included some EXTJS and Google Maps components',
-        'Designed modular pipeline approach for the client deliverable product',
-        'Identified tools for the client deliverable and refactored components of the proof of concept as needed',
-        'Apache Commons Pipeline',
-        'Upgrade to OpenCalais',
-        'Used the JENA RDF API to parse responses from the entity extract service '
-      ]
-    }, { 
-      title: 'Composable Applications Project',
-      dates: ['June 2007', 'August 2009'],
-      roles: [],
-      description: [
-      'Attended and coordinated meetings to identify requirements',
-      'Identified and analyzed many open and closed source tools that provide needed functionality including Microsoft Popfly, Yahoo Pipes and Service Mix '
-      ]
-    }, { 
-      title: 'GDSN Project',
-      dates: ['November 2006', 'May 2007'],
-      roles: [],
-      description: [
-        'Consumed and integrated SOAP services that perform various GIS functions',
-        'Wrote AJAX components that cleanly integrated with Legacy J2EE components',
-        'Designed and implemented Weblogic portlets, Pageflows and Controls',
-        'Designed and implemented a Shopping Cart style portlet',
-        'Managed the state of a complex Java Object',
-        'Allowed Locations (GIS) found in a cart object to be looked up against a SOAP service',
-        'Allowed custom fields to be added to cart objects '
-      ]
-    }, { 
-      title: 'Intrack Project',
-      dates: ['November 2006', 'May 2007'],
-      roles: [],
-      description: [
-        'Designed a Rich Internet Application that performed similar functions as combinations of commercial tools',
-        'Designed Servlets using the REST architectural style',
-        'Designed and Implemented a JSP “Workbench” that dynamically loaded and persisted its content from REST style Servlets',
-        'Designed and coded many JSON style objects that encapsulated each piece of the application',
-        'Implemented many widgets from various JavaScript libraries',
-        'Designed and created a database schema that could remain flexible and easy to maintain in a fluid environment',
-        'Participated in and encouraged open brainstorm style design meetings',
-        'Worked on an extremely fast paced timeline, many times delivering more functionality than expected',
-        'Integrated many open source and open license tools (Nutch, Hibernate,Apache ECS,Google Maps, ESRI Web Service, YUI JavaScript Library, Dojo JavaScript Library, Apache Derby)',
-        'Designed and coded a news feed search engine',
-        'Designed an abstract architecture that allowed any news feed to be integrated and searched by our system',
-        'Leveraged open source tools (ROME) to search news feeds and fetch results',
-        'Parsed news feeds (RSS, ATOM, etc…) and extracted a set of data that could integrate into our existing environment',
-        'Designed an object model that could store the maximum amount of information from news feeds as possible while still maintaining a common dataset with our legacy data',
-        'Designed a method to fetch pages the news item derived from and display those pages in our application '
-      ]
-    }, { 
-      title: 'Tra2es Project',
-      dates: ['April 2005', 'October 2006'],
-      roles: [],
-      description: [
-        'Fixed defects and made improvements to Swing forms',
-        'Maintained XML documents that were responsible for linking view elements with calls to PL/SQL scripts '
-      ]
-
-    }, { 
-      title: 'NPAT Tool Project ',
-      dates: ['April 2005', 'October 2006'],
-      roles: [],
-      description: [
-        'Fixed defects on an existing application that involved creating new and repairing existing PL/SQL scripts',
-        'Repaired stateful table links that joined stateful entities from different tables',
-        'Designed and coded multiple extract, transform and load (ETL) applications that provided data for a large data warehouse',
-        'Created ingest applications for XML, CSV, and Tab delimited files.',
-        'Redesigned the middle tier of a Swing based application to uncouple the business logic from the GUI code',
-        'Extracted business rules from Swing components',
-        'Worked closely with team members to Build a set of XML files that represented all business rules for our application',
-        'Designed and implemented a scalable middle tier allowing for future addition Web Services',
-        'Documented the existing and new application using Rational templates and standard UML diagrams',
-        'Provided advice and support to a team of 5 developers, assisting in OO design and coding practices '
-      ]
-
-    }, { 
-      title: 'RAB Tool Project ',
-      dates: ['June 2004', 'March 2005'],
-      roles: [],
-      description: [
-        'Applied the Struts framework to an existing model 2 (non-struts) Java web application',
-        'Implemented and customized tomcat container managed security infrastructure that allowed for custom Single Sign On functionality',
-        'Assisted in the creation and maintenance of Oracle Databases',
-        'Setup a Development Environment to include Linux based Web and CVS servers '
-      ]
-
-    }, { 
-      title: 'Project Timeline ',
-      dates: ['January 2004', 'May 2004'],
-      roles: [],
-      description: [
-        'Worked as a Java developer to integrate various web services',
-        'Created JAVA SERVLETS to pass information to a JSP view',
-        'Created JAVA SERVER PAGES (JSP) to display content ',
-        'Evaluated software to determine its eligibility for integration into our application',
-        'Wrote several client deliverable reports based on evaluations I performed',
-        'Provided feedback to the software vendors including suggested improvements ',
-        'Gathered and documented requirements based on evaluations I performed on several software packages '
-      ]
-    }, { 
-      title: 'IAIP Dashboard ',
-      dates: ['January 2004', 'May 2004'],
-      roles: [],
-      description: [
-        'Gathered and documented requirements',
-        'Conducted meetings with clients to review business processes',
-        'Gathered requirements from end users and domain experts '
-      ]
-    }]
-  }, {
-    company: 'US ARMY',
-    dates: '1997-2004'
-  }]
-});
-// http://www.gravatar.com/avatar/d9d32ad9ba18621a60a12019c904461f.png
-
+.value('companies', [
+	"booz",
+	"army"
+])
+.factory('resumeData', ['$resource', function($resource) {
+	var CompanyExperience = $resource('/resume/js/:company.json', { company: '@id'});
+	function getExperience(company){
+		if (angular.isString(company)) {
+			return getExperience({company: company});
+		} else if (angular.isArray(company)) {
+			return company.map(getExperience);
+		} else if (angular.isObject(company)) {
+			return CompanyExperience.get(company);
+		} else {
+			throw "Invalid argument to getExperience: " + typeof(company);
+		}
+	}
+	return { getExperience: getExperience };
+}])
+.factory('resume', ['resumeData', 'companies', function(resumeData, companies) {
+   return { experience: resumeData.getExperience(companies) };
+}]);
+;

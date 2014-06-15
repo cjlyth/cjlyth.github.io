@@ -1,5 +1,5 @@
 'use strict';
 /* Services */
-angular.module('resumeApp.services', [])
+angular.module('resumeApp.services', ['ngResource'])
 
 ;
