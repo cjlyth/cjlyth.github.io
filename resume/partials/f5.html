@@ -28,7 +28,7 @@
     </dt>
     <dd ng-repeat-end>
       <ul class="list-inline">
-        <li ng-repeat="role in project.roles"><span class="label label-default">{{role}}</span></li>
+        <li ng-repeat="role in project.roles"><span class="label label-default" ng-click="selectRole(role)" ng-bind="role"></span></li>
       </ul>
       <p ng-repeat="description in project.description" ng-bind-html="description"></p>
     </dd>

@@ -31,4 +31,9 @@ angular.module('resumeApp', [
     templateUrl: 'partials/f5.html',
     controller: 'ResumeCtrl'
   });
-}]);
+  
+}])
+.run(['$rootScope', '$cookieStore', function($rootScope, $cookieStore) {
+  $rootScope.$cookieStore = $cookieStore;
+}])
+;
