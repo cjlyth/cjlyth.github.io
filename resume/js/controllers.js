@@ -7,10 +7,9 @@ angular.module('resumeApp.controllers', ['ngCookies',
   	function($scope, $cookieStore, resumeData, companies) {
 			$scope.selectedRole = $scope.$eval("$cookieStore.get('selectedRole')");
 			$scope.selectRole = function(role){
-				console.log('role',role);
 				$scope.$evalAsync('selectedRole = "' + role + '"');
 			}
-			$scope.$watch('selectedRole', "$cookieStore.put('selectedRole', selectedRole)");
+			$scope.$watch('selectedRole', "selectedRole && $cookieStore.put('selectedRole', selectedRole)");
     	$scope.resume = { experience: resumeData.getExperience(companies) };
   	}])
 
