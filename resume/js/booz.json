@@ -2,39 +2,43 @@
   "company": "Booz Allen Hamilton",
   "dates": [
     "2003-12-29",
-    ""
+    "Present"
   ],
   "projects": [
     {
-      "title": "Digital Information Gathering System (DIGS)",
+      "longName": "Digital Information Gathering System",
+      "shortName": "DIGS",
       "dates": [
-        "2011-August-01",
-        "2012-January-01"
+        "2011-08-01",
+        "2012-01-01"
       ],
       "roles": [
         "System Architect",
-        "Technical Lead"
+        "Technical Lead",
+        "Lead Developer"
       ],
       "description": [
-        "Designed a swing GUI based on the NetBeans platform to visualize and manipulate graph structures",
-        "Integrated Gephi, yFiles, and Booz Allen proprietary code to create a robust information discovery platform",
+        "Designed a swing GUI based on the <span class='tool api platform'>NetBeans platform</span> to visualize and manipulate graph structures",
+        "Integrated <span class='tool'>Gephi</span>, <span class='tool'>yFiles</span>, and Booz Allen proprietary code to create a robust information discovery platform",
         "Created API’s and SPI’s for junior team members to use, and mentored as necessary to ensure success"
       ]
     },
     {
-      "title": "Internet Search Execution Environment (iSEE)",
+      "longName": "Internet Search Execution Environment",
+      "shortName": "iSEE",
       "dates": [
-        "2010-July-01",
-        "2011-July-01"
+        "2010-07-01",
+        "2011-07-01"
       ],
       "roles": [
         "Solution Architect",
-        "Technical Lead"
+        "Technical Lead",
+        "Lead Developer"
       ],
       "description": [
         "Designed an enterprise level system that simulated the infrastructure of the internet for use in training environments",
         "Quickly responded to rapidly evolving client requirements, provide a high level of service and satisfaction to our client",
-        "Integrated multiple enterprise open source applications (Heritrix, Wayback, Nutch) to suit the needs of the project",
+        "Integrated multiple enterprise open source applications (<span class='tool'>Heritrix</span>, <span class='tool'>Wayback</span>, <span class='tool'>Nutch</span>) to suit the needs of the project",
         "Designed and developed API hooks in open source applications to collect metrics relevant to the client’s needs",
         "Integrated software from a subcontractor into the environment to allow for the collection of more metric data",
         "Designed and developed an interface for instructors to monitor and manipulate a student’s activity in the environment",
@@ -44,10 +48,11 @@
       ]
     },
     {
-      "title": "Open Source Intelligence (OSINT) Solutions",
+      "longName": "Open Source Intelligence Solutions",
+      "shortName": "OSINT",
       "dates": [
-        "2009-August-01",
-        "2010-June-01"
+        "2009-08-01",
+        "2010-06-01"
       ],
       "roles": [
         "Solutions Architect"
@@ -58,141 +63,141 @@
         "Frequently met with senior decision makers within Booz Allen as well as Government Clients",
         "Generated more than 12 opportunities, tailored to the capabilities of our team as well as the client’s needs",
         "Designed developed and lead a team of developers that mined information out of a collection of resumes for all Booz Allen staff",
-        "Implemented and used advanced text analytic algorithms (Latent Dirichlet Allocation, Latent Semantic Indexing, Naive Bayes Classifiers and other similar algorithms) to model and index resume data",
+        "Implemented and used advanced text analytic algorithms (<span class='tool'>Latent Dirichlet Allocation</span>, <span class='tool'>Latent Semantic Indexing</span>, <span class='tool'>Naive Bayes Classifiers</span> and other similar algorithms) to model and index resume data",
         "Leveraged these technologies to market our skills and capabilities to clients as well as other Booz Allen Teams",
-        "Assessed graph visualization toolkits including Gephi, Walrus, InfoVis, Protovis as well as others"
+        "Assessed graph visualization toolkits including <span class='tool'>Gephi</span>, <span class='tool'>Walrus</span>, <span class='tool'>InfoVis</span>, <span class='tool'>Protovis</span> as well as others"
       ]
     },
     {
-      "title": "General (Applies to all projects)",
+      "longName": "General (Applies to all projects)",
+      "shortName": "",
       "dates": [
-        "2007-June-01",
-        "2009-August-01"
+        "2007-06-01",
+        "2009-08-01"
       ],
-      "roles": [],
+      "roles": ["Project Advisor","Technical Mentor"],
       "description": [
-        "Configured and maintained a team maven repository (Apache Archiva)",
-        "Configured and maintained a team continuous integration server (Apache Continuum)",
-        "Configured multiple Apache Maven multi-module projects",
-        "Configured and maintained source control (Subversion)",
-        "Configured and maintained defect tracking tool (Bugzilla)",
-        "Provided my skills as a technical mentor for multiple teams",
-        "Promoted and taught test driven development practices for multiple projects and development teams",
-        "Promoted and taught the use of mock frameworks for unit testing"
+        "Configured and maintained several Application lifecycle management (ALM) tools for multiple teams",
+        "Gained considerable experience with a number of ALM tools including, <span class='alm tool di'>Apache Archiva <span class='more info'>(dependency and release management)</span></span>, <span class='alm tool ci'>Apache Continuum <span class='more info'>(continuous integration server)</span></span>, <span class='alm tool scm'>Subversion <span class='more info'>(source control)</span></span>, <span class='alm tool issue'>Bugzilla <span class='more info'>(issue tracking)</span></span>, <span class='alm tool pm build release'>Apache Maven <span class='more info'>(project management and build tool)</span></span> and a handful of others",
+        "Set a high standard for code quality on multiple development teams through mentorship and process improvement",
+        "Conducted multi-team brown bags on various software engineering methodologies like <span class='software quality test alm'>test driven development (TDD)</span>, <span class='software quality test unit alm'>mock frameworks</span> and ALM tool use"
       ]
     },
     {
-      "title": "Digital Biometrics Project",
+      "longName": "Digital Biometrics",
+      "shortName": "DIBIS",
       "dates": [
-        "2007-June-01",
-        "2009-August-01"
+        "2007-06-01",
+        "2009-08-01"
       ],
-      "roles": [],
+      "roles": ["System Architect","Lead Developer"],
       "description": [
         "Designed an enterprise level system that integrated behavioral biometrics sensors",
         "Conducted design meetings with clients to ensure requirements were accurately captured",
-        "Lead a team of 5 developers that included sub contractors in a distributed environment  ",
-        "Coordinated developments with 3rd party development teams (not subcontractors) to ensure requirements were met by both teams"
+        "Lead a team of 5 developers that included subcontractors in a distributed environment",
+        "Coordinated with a 3rd party development team (not subcontractor) to ensure client requirements were met by both teams"
       ]
     },
     {
-      "title": "Oscar Project",
+      "longName": "Oscar",
+      "shortName": "",
       "dates": [
-        "2007-June-01",
-        "2009-August-01"
+        "2007-06-01",
+        "2009-08-01"
       ],
-      "roles": [],
+      "roles": ["Solution Architect", "Technical Lead", "Lead Developer"],
       "description": [
-        "Designed an enterprise level system that tracked Intelligence requirements",
-        "Conducted design meetings with clients to ensure requirements were accurately captured",
-        "Primarily used the Hibernate, Spring, and Wicket frameworks",
-        "Conducted bi weekly peer code reviews",
-        "Lead a team of 5 developers, assigning development tasks and coordinating efforts",
+        "Designed an enterprise level system that tracked intelligence requirements and products",
+        "Conducted meetings with clients to ensure system requirements and design were accurately captured",
+        "Primarily used the <span class='tool orm framework'>Hibernate</span>, <span class='tool orm di framework'>Spring</span>, and <span class='tool mvc apache framework'>Apache Wicket</span> frameworks",
+        "Lead a very diverse team of 5 software developers",
+        "Defined software development processes that included peer code reviews, architecture review and other ALM methodologies",
         "Assigned components to developers based on their skill sets allowing individuals to grow at a rate that was comfortable to them and the project",
-        "Provided the team with insight and accepted input to the system design"
+        "Provided the team with a transparent architecture and structured development environment"
       ]
     },
     {
-      "title": "Global Traceroute Project",
+      "longName": "Global Traceroute",
+      "shortName": "",
       "dates": [
-        "2007-June-01",
-        "2009-August-01"
+        "2007-06-01",
+        "2009-08-01"
       ],
-      "roles": [],
+      "roles": ["Project Advisor", "System Architect"],
       "description": [
         "Attended and coordinated meetings with clients to obtain requirements",
-        "Designed a SOA approach that allowed for modular deployment",
+        "Designed a <span class='software design pattern'>Service-oriented architecture (SOA)</span> approach that allowed for modular deployment",
         "Identified technologies and frameworks to be used",
         "Provided developers with technical guidance during implementation"
       ]
     },
     {
-      "title": "Pepsi Horizon Scanning Project",
+      "longName": "Pepsi Horizon Scanning",
+      "shortName": "",
       "dates": [
-        "2007-June-01",
-        "2009-August-01"
+        "2007-06-01",
+        "2009-08-01"
       ],
-      "roles": [],
+      "roles": ["Solution Architect",
+                "Lead Developer"],
       "description": [
         "Attended and coordinated client meetings to obtain requirements",
         "Designed and implemented a fully functioning, proof of concept",
         "Leveraged google alerts using the JavaMail API to parse news alerts",
-        "Consumed the Clearforest Web service (prior to Reuters purchase and OpenCalais release) to extract entities from news alerts",
-        "Designed and implemented a Apache Wicket based GUI that included some EXTJS and Google Maps components",
-        "Designed modular pipeline approach for the client deliverable product",
+        "Consumed the <span class='api tool nlp'>Clearforest</span> Web service (prior to Reuters purchase and OpenCalais release) to extract entities from news alerts",
+        "Designed and implemented a <span class='tool mvc apache framework'>Apache Wicket</span> based GUI that included some <span class='tool js framework'>EXTJS</span> and <span class='tool api map'>Google Maps</span> components",
+        "Designed modular pipeline approach based on <span class='tool apache framework'>Apache Commons Pipeline</span>",
         "Identified tools for the client deliverable and refactored components of the proof of concept as needed",
-        "Apache Commons Pipeline",
-        "Upgrade to OpenCalais",
-        "Used the JENA RDF API to parse responses from the entity extract service"
+        "Used the <span class='tool rdf api apache'>JENA</span> <span class='tool rdf api'>RDF</span> API to parse responses from the entity extract service"
       ]
     },
     {
-      "title": "Composable Applications Project",
+      "longName": "Composable Applications",
+      "shortName": "",
       "dates": [
-        "2007-June-01",
-        "2009-August-01"
+        "2007-06-01",
+        "2009-08-01"
       ],
-      "roles": [],
+      "roles": ["Solution Architect",
+                "Lead Developer"],
       "description": [
-        "Attended and coordinated meetings to identify requirements",
-        "Identified and analyzed many open and closed source tools that provide needed functionality including Microsoft Popfly, Yahoo Pipes and Service Mix"
+        "Attended and coordinated meetings to identify client requirements",
+        "Identified and analyzed many open and closed source tools that provide needed functionality including <span class='tool api soa'>Microsoft Popfly</span>, <span class='tool api soa'>Yahoo Pipes</span> and <span class='tool api soa apache'>Apache Service Mix</span>"
       ]
     },
     {
-      "title": "GDSN Project",
+      "longName": "Global Disease Sentinel Network",
+      "shortName": "GDSN",
       "dates": [
-        "2006-November-01",
-        "2007-May-01"
+        "2006-11-01",
+        "2007-05-01"
       ],
-      "roles": [],
+      "roles": ["Software Developer"],
       "description": [
-        "Consumed and integrated SOAP services that perform various GIS functions",
-        "Wrote AJAX components that cleanly integrated with Legacy J2EE components",
-        "Designed and implemented Weblogic portlets, Pageflows and Controls",
-        "Designed and implemented a Shopping Cart style portlet",
-        "Managed the state of a complex Java Object",
-        "Allowed Locations (GIS) found in a cart object to be looked up against a SOAP service",
-        "Allowed custom fields to be added to cart objects"
+        "Consumed and integrated <span class='tool api'>SOAP</span> services that perform various <span class='tool api map gis'>Arc GIS</span> functions",
+        "Wrote <span class='tool js pattern'>AJAX</span> components that cleanly integrated with Legacy <span class='tool java'>J2EE</span> components",
+        "Designed and implemented <span class='tool java server'>Weblogic</span> portlets, Pageflows and Controls",
+        "Refactored legacy code that controlled the application state and developed a new Shopping Cart style portlet to improve the user experience"
       ]
     },
     {
-      "title": "Intrack Project",
+      "longName": "InTrack",
+      "shortName": "",
       "dates": [
-        "2006-November-01",
-        "2007-May-01"
+        "2006-11-01",
+        "2007-05-01"
       ],
-      "roles": [],
+      "roles": ["Solution Architect",
+                "Lead Developer"],
       "description": [
-        "Designed a Rich Internet Application that performed similar functions as combinations of commercial tools",
-        "Designed Servlets using the REST architectural style",
-        "Designed and Implemented a JSP “Workbench” that dynamically loaded and persisted its content from REST style Servlets",
-        "Designed and coded many JSON style objects that encapsulated each piece of the application",
-        "Implemented many widgets from various JavaScript libraries",
-        "Designed and created a database schema that could remain flexible and easy to maintain in a fluid environment",
-        "Participated in and encouraged open brainstorm style design meetings",
-        "Worked on an extremely fast paced timeline, many times delivering more functionality than expected",
-        "Integrated many open source and open license tools (Nutch, Hibernate,Apache ECS,Google Maps, ESRI Web Service, YUI JavaScript Library, Dojo JavaScript Library, Apache Derby)",
-        "Designed and coded a news feed search engine",
+        "Designed a Rich Internet Application that performed similar functions as a combination of commercial tools",
+        "Designed Servlets using the <span class='software design pattern'>REST</span> architectural style",
+        "Designed and Implemented a <span class='tool java lang'>JSP</span> “Workbench” that dynamically loaded and persisted its content from REST services",
+        "Designed and coded <span class='tool js lang pattern'>JSON</span> model objects for application state transfer",
+        "Designed and Implemented widgets using various <span class='tool js lang lib'>JavaScript</span> libraries",
+        "Designed and created a flexible and easy to maintain database schema",
+        "Worked on an extremely fast paced timeline, consistently delivering more functionality than expected",
+        "Integrated many open source tools (<span class='tool lucene apache search server'>Nutch</span>, <span class='tool db orm'>Hibernate</span>, <span class='tool lib apache framework'>Apache ECS</span>, <span class='tool lib js map'>Google Maps</span>, <span class='tool lib map server'>Arc GIS</span>, <span class='tool lib js framework mvc'>YUI</span>, <span class='tool lib js framework mvc'>Dojo</span>, <span class='tool apache db server'>Apache Derby</span>)",
         "Designed an abstract architecture that allowed any news feed to be integrated and searched by our system",
         "Leveraged open source tools (ROME) to search news feeds and fetch results",
         "Parsed news feeds (RSS, ATOM, etc…) and extracted a set of data that could integrate into our existing environment",
@@ -201,26 +206,28 @@
       ]
     },
     {
-      "title": "Tra2es Project",
+      "longName": "Tra2es",
+      "shortName": "",
       "dates": [
-        "2005-April-01",
-        "2006-October-01"
+        "2005-04-01",
+        "2006-10-01"
       ],
-      "roles": [],
+      "roles": ["Software Developer"],
       "description": [
         "Fixed defects and made improvements to Swing forms",
-        "Maintained XML documents that were responsible for linking view elements with calls to PL/SQL scripts"
+        "Maintained XML documents that were responsible for linking view elements with calls to <span class='lang db'>PL/SQL</span> scripts"
       ]
     },
     {
-      "title": "NPAT Tool Project",
+      "longName": "NPAT",
+      "shortName": "",
       "dates": [
-        "2005-April-01",
-        "2006-October-01"
+        "2005-04-01",
+        "2006-10-01"
       ],
-      "roles": [],
+      "roles": ["Software Developer"],
       "description": [
-        "Fixed defects on an existing application that involved creating new and repairing existing PL/SQL scripts",
+        "Fixed defects on an existing application that involved creating new and repairing existing <span class='lang db'>PL/SQL</span> scripts",
         "Repaired stateful table links that joined stateful entities from different tables",
         "Designed and coded multiple extract, transform and load (ETL) applications that provided data for a large data warehouse",
         "Created ingest applications for XML, CSV, and Tab delimited files",
@@ -233,26 +240,28 @@
       ]
     },
     {
-      "title": "RAB Tool Project",
+      "longName": "Resource Allocation Board Tool",
+      "shortName": "RAB",
       "dates": [
-        "2004-June-01",
-        "2005-March-01"
+        "2004-06-01",
+        "2005-03-01"
       ],
-      "roles": [],
+      "roles": ["Software Developer"],
       "description": [
-        "Applied the Struts framework to an existing model 2 (non-struts) Java web application",
-        "Implemented and customized tomcat container managed security infrastructure that allowed for custom Single Sign On functionality",
-        "Assisted in the creation and maintenance of Oracle Databases",
-        "Setup a Development Environment to include Linux based Web and CVS servers"
+        "Applied the <span class='tool mvc apache framework java tool'>Apache Struts</span> framework to an existing model 2 (non-struts) Java web application",
+        "Implemented and customized <span class='tool java apache server tool'>tomcat</span> container managed security infrastructure that allowed for custom Single Sign On functionality",
+        "Assisted in the creation and maintenance of <span class='db server java tool'>Oracle</span> Databases",
+        "Setup the team development infrastructure using <span class='linux server tool'>Linux</span> based Web and CVS servers"
       ]
     },
     {
-      "title": "Project Timeline",
+      "longName": "Timeline",
+      "shortName": "",
       "dates": [
-        "2004-January-01",
-        "2004-May-01"
+        "2004-01-01",
+        "2004-05-01"
       ],
-      "roles": [],
+      "roles": ["Software Developer"],
       "description": [
         "Worked as a Java developer to integrate various web services",
         "Created JAVA SERVLETS to pass information to a JSP view",
@@ -264,10 +273,13 @@
       ]
     },
     {
+      "longName": "IAIP Dashboard",
+      "shortName": "",
+
       "title": "IAIP Dashboard",
       "dates": [
-        "2004-January-01",
-        "2004-May-01"
+        "2004-01-01",
+        "2004-05-01"
       ],
       "roles": [],
       "description": [

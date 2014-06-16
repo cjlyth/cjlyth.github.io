@@ -56,58 +56,57 @@
 
     /* load scripts for the "jQuery" bundle */
     $script([
-      'https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'
+      'https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.js'
     ], 'jQuery');
 
     $script.ready('jQuery', function () {
       /* load scripts for the "bootstrap" bundle */
       $script([
-        '//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js'
+        '//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.js'
       ], 'bootstrap');
     });
     
     /* load scripts for the "ngCore" bundle */
     $script([
-      'https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.11/angular.min.js'
+      'https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.11/angular.js'
     ], 'ngCore');
 
     /**
      * 
      * Available modules:
-     *  - 'https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.11/angular-cookies.min.js',
-     *  - 'https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.11/angular-messages.min.js',
-     *  - 'https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.11/angular-loader.min.js',
-     *  - 'https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.11/angular-touch.min.js',
-     *  - 
+     *  - 'https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.11/angular-messages.js',
+     *  - 'https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.11/angular-loader.js',
+     *  - 'https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.11/angular-touch.js',
      */
     var ngModules = [
-      'https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.11/angular-route.min.js',
-      'https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.11/angular-animate.min.js',
-      'https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.11/angular-resource.min.js',
-      'https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.11/angular-sanitize.min.js'
+      'https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.11/angular-route.js',
+      'https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.11/angular-cookies.js',
+      'https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.11/angular-animate.js',
+      'https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.11/angular-resource.js',
+      'https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.11/angular-sanitize.js'
     ];
     $script.ready('ngCore', function () {
       /* load scripts for the "ngModules" bundle */
       $script(ngModules, 'ngModules');
       /* load scripts for the "moment" bundle */    
       $script([
-        'lib/moment/moment.min.js',
-        'lib/angular-moment/angular-moment.min.js'
+        'lib/moment/moment.min.js'
       ], 'moment');
     });
-    
-    /* load scripts for the "app" bundle */    
-    $script([
-      'js/app.js',
-      'js/services.js',
-      'js/controllers.js',
-      'js/filters.js',
-      'js/directives.js',
-      'js/resume-service.js'      
-    ], 'app');
-    
-    $script.ready(['ngModules', 'app'], function () {
-      angular.bootstrap(document, ['resumeApp']);
+
+    $script.ready(['ngCore','ngModules'], function () {
+      /* load scripts for the "app" bundle */    
+      $script([
+        'js/app.js',
+        'js/services.js',
+        'js/controllers.js',
+        'js/filters.js',
+        'js/directives.js'
+      ], 'app');
+
+      $script.ready('app', function () {
+        angular.bootstrap(document, ['resumeApp']);
+      });      
     });
 
   </script>

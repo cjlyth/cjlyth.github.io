@@ -3,7 +3,8 @@
   "dates": ["1997-09-29","2003-12-29"],
   "projects": [
     {
-      "title": "Various Projects",
+      "longName": "Various",
+      "shortName": "",
       "dates": [
         "1998-03-01",
         "2003-12-29"

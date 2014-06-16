@@ -4,18 +4,33 @@
   <div class="col-xs-6 text-left text-muted">(703) 774-9712</div>
 </div>
 <hr/>
-<h3>Professional Experience</h3>
+<h3 class="text-center">Professional Experience</h3>
 <div class="row" ng-repeat="experience in resume.experience | orderBy:dates:true">
   <div class="col-md-12">
-    <h4>{{experience.company}} <small ng-repeat="date in experience.dates track by $index">{{date}}</small></h4>
+    <h4>
+      <small class="company date range pull-right">
+        <span ng-repeat-start="date in experience.dates track by $index">{{ date | toDate:'YYYY' }}</span>
+        <span ng-repeat-end ng-show="!$last" > - </span>
+      </small>
+      <span class="company name" ng-bind="experience.company"></span>
+    </h4>
   </div>
   <dl class="col-md-10 col-md-offset-1">
-    <dt ng-repeat-start="project in experience.projects"><h5>{{project.title}} <small>{{project.dates}}</small><h5></dt>
+    <dt ng-repeat-start="project in experience.projects">
+      <h5>
+        <small class="project date range pull-right">
+          <span ng-repeat-start="date in project.dates track by $index">{{ date | toDate:'MM/YYYY' }}</span>
+          <span ng-repeat-end ng-show="!$last" > - </span>
+        </small>
+        <span class="project long name" ng-bind="project.longName"></span>
+        <span class="project short name small"  ng-show="project.shortName" ng-bind="project.shortName"></span>
+      <h5>
+    </dt>
     <dd ng-repeat-end>
       <ul class="list-inline">
         <li ng-repeat="role in project.roles"><span class="label label-default">{{role}}</span></li>
       </ul>
-      <p ng-repeat="description in project.description">{{description}}</p>
+      <p ng-repeat="description in project.description" ng-bind-html="description"></p>
     </dd>
   </dl>
 </div>
