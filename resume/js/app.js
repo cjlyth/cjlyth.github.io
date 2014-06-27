@@ -28,10 +28,9 @@ angular.module('resumeApp', [
 }])
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/', {
-    templateUrl: 'partials/f5.html',
+    templateUrl: 'partials/resume.html?v=2',
     controller: 'ResumeCtrl'
   });
-  
 }])
 .run(['$rootScope', '$cookieStore', function($rootScope, $cookieStore) {
   $rootScope.$cookieStore = $cookieStore;

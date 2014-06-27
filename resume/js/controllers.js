@@ -1,7 +1,6 @@
 'use strict';
 /* Controllers */
-angular.module('resumeApp.controllers', ['ngCookies', 
-																				 'resumeApp.services'])
+angular.module('resumeApp.controllers', ['ngCookies', 'resumeApp.services'])
   .controller('GridCtrl', [function() {}])
   .controller('ResumeCtrl', ['$scope', '$cookieStore', 'resumeData', 'companies', 
   	function($scope, $cookieStore, resumeData, companies) {
