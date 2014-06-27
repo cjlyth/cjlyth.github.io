@@ -26,10 +26,11 @@
         <span class="project short name small"  ng-show="project.shortName" ng-bind="project.shortName"></span>
       <h5>
     </dt>
-    <dd ng-repeat-end>
+    <dd ng-repeat-end ng-switch="project.description.length">
       <ul class="list-inline">
         <li ng-repeat="role in project.roles"><span class="label label-default" ng-click="selectRole(role)" ng-bind="role"></span></li>
       </ul>
+      <p ng-switch-when="0" class="text-muted">Please check back soon for more...</p>
       <p ng-repeat="description in project.description" ng-bind-html="description"></p>
     </dd>
   </dl>
