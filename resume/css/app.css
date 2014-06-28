@@ -1,42 +1,42 @@
 /* app css stylesheet */
-dt {
+
+
+.border.example {
+	border: 1px solid rgba(86,61,124,.2);
+}
+
+.orig dt {
 	margin-top: 30px;
   border-bottom: 1px solid #ddd;
 }
-dd {
+.orig dd {
    margin-left: 20px;
 }
-dd p {
+.orig dd p {
 	margin: 0;
 }
 
 .company.name {
 
 }
-.project.name.visible-xs {
+.orig .project.name.visible-xs {
 	display: inline-block;
   max-width: 170px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.company.date.range {
 
-}
-.project.date.range {
-
-}
-
-.tool {
+.orig .tool {
 	font-weight: bold;
 }
-.tool .more.info {
+.orig .tool .more.info {
 	font-weight: lighter;
 }
 
-.project.short.name::before {
+.orig .project.short.name::before {
   content: "(";
 }
-.project.short.name::after {
+.orig .project.short.name::after {
   content: ")";
 }

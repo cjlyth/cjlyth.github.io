@@ -1,0 +1,27 @@
+<div class="border example row">
+  <div class="border example col-xs-1">xs-1</div>
+  <div class="border example col-xs-1">xs-1</div>
+  <div class="border example col-xs-1">xs-1</div>
+  <div class="border example col-xs-1">xs-1</div>
+  <div class="border example col-xs-1">xs-1</div>
+  <div class="border example col-xs-1">xs-1</div>
+  <div class="border example col-xs-1">xs-1</div>
+  <div class="border example col-xs-1">xs-1</div>
+  <div class="border example col-xs-1">xs-1</div>
+  <div class="border example col-xs-1">xs-1</div>
+  <div class="border example col-xs-1">xs-1</div>
+  <div class="border example col-xs-1">xs-1</div>
+</div>
+<h4 class="row " ng-repeat-start="experience in resume.experience | orderBy:dates:true">
+  <span class="border example company name col-xs-9 col-sm-9 col-md-8 col-md-offset-1" ng-bind="experience.company"></span>
+  <small class="border example company date range col-xs-4 col-sm-3 text-right ">
+    <span
+      ng-repeat-start="date in experience.dates track by $index">{{ date | toDate:'YYYY' }}</span>
+    <span ng-repeat-end class="visible-sm" ng-show="!$last" > - </span>
+  </small>
+</h4>
+<div class="row " ng-repeat-end ng-repeat="project in experience.projects | orderBy:dates:true">
+  <div class="col-md-10 col-md-offset-1">
+    <pre ng-bind="project | json"></pre>
+  </div>
+</div>
