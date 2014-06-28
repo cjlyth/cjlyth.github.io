@@ -13,11 +13,15 @@ dd p {
 .company.name {
 
 }
-.project.name {
-
+.project.name.visible-xs {
+	display: inline-block;
+  max-width: 170px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .company.date.range {
-	
+
 }
 .project.date.range {
 

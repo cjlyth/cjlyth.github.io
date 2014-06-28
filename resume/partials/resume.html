@@ -3,7 +3,7 @@
   <div class="col-xs-6 text-right text-muted">cjlyth@gmail.com</div>
   <div class="col-xs-6 text-left text-muted">(703) 774-9712</div>
 </div>
-<hr/>
+<hr class="hidden-print"/>
 <h3 class="text-center">Professional Experience</h3>
 <div class="row" ng-repeat="experience in resume.experience | orderBy:dates:true">
   <div class="col-md-12">
@@ -22,8 +22,10 @@
           <span ng-repeat-start="date in project.dates track by $index">{{ date | toDate:'MM/YYYY' }}</span>
           <span ng-repeat-end ng-show="!$last" > - </span>
         </small>
-        <span class="project long name" ng-bind="project.longName"></span>
-        <span class="project short name small"  ng-show="project.shortName" ng-bind="project.shortName"></span>
+        <span class="project long name hidden-xs" ng-bind="project.longName"></span>
+        <span class="project short name small hidden-xs"  ng-show="project.shortName" ng-bind="project.shortName"></span>
+        <span class="project name visible-xs" ng-bind="project.shortName || project.longName"></span>
+
       <h5>
     </dt>
     <dd ng-repeat-end ng-switch="project.description.length">

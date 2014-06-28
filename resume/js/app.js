@@ -28,7 +28,7 @@ angular.module('resumeApp', [
 }])
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/', {
-    templateUrl: 'partials/resume.html?v=2',
+    templateUrl: 'partials/resume.html',
     controller: 'ResumeCtrl'
   });
 }])
