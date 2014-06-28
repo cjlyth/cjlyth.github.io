@@ -16,6 +16,10 @@
         "Project Advisor",
         "Technical Mentor"
       ],
+      "objective": [],
+      "responsibilities": [],
+      "achievements": [],
+      "technologies": [],
       "description": []
     },
     {
@@ -28,6 +32,10 @@
       "roles": [
         "Lead Developer"
       ],
+      "objective": [],
+      "responsibilities": [],
+      "achievements": [],
+      "technologies": [],      
       "description": []
     },
     {
@@ -41,6 +49,10 @@
         "Solution Architect",
         "Lead Developer"
       ],
+      "objective": [],
+      "responsibilities": [],
+      "achievements": [],
+      "technologies": [],      
       "description": []
     },
     {
@@ -54,6 +66,10 @@
         "Solution Architect",
         "Technical Lead"
       ],
+      "objective": [],
+      "responsibilities": [],
+      "achievements": [],
+      "technologies": [],      
       "description": []
     },
     {
@@ -64,9 +80,13 @@
         "2013-06-01"
       ],
       "roles": [
-        "System Architect",
+        "Solution Architect",
         "Lead Developer"
       ],
+      "objective": [],
+      "responsibilities": [],
+      "achievements": [],
+      "technologies": [],      
       "description": []
     },
     {
@@ -80,6 +100,10 @@
         "System Architect",
         "Lead Developer"
       ],
+      "objective": [],
+      "responsibilities": [],
+      "achievements": [],
+      "technologies": [],      
       "description": []
     },
     {
@@ -94,6 +118,10 @@
         "Technical Lead",
         "Lead Developer"
       ],
+      "objective": [],
+      "responsibilities": [],
+      "achievements": [],
+      "technologies": [],      
       "description": []
     },
     {
@@ -104,8 +132,11 @@
         "2012-08-01"
       ],
       "roles": ["Lead Developer"],
-      "description": [
-      ]
+      "objective": [],
+      "responsibilities": [],
+      "achievements": [],
+      "technologies": [],
+      "description": []
     },
     {
       "longName": "Digital Information Gathering System",
