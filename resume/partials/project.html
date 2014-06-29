@@ -1,112 +1,63 @@
-
-<div class="row h5 title">
-    <span class="col-xs-12 col-sm-6 col-md-9">
+<div class="row title h4">
+    <span class="hidden-xs pull-right small"
+      date-range="project.dates"
+      date-format="MM/YYYY" ></span>
+    <span class="col-sm-9">
       <span ng-bind="project.longName"></span>
       <small class="text-muted" ng-bind="project.shortName" ng-if="project.shortName"></small>
     </span>
-    <span class="col-sm-6 col-md-3 text-right"
-          date-range="project.dates"
-          date-format="MM/YYYY" ></span>
 </div>
 
 <div class="row">
-  <span class="col-md-10">
-    <dl class="dl-horizontal" >
-      <dt ng-if-start="project.objective">Project Objective</dt>
+    <dl class="hidden-xs col-sm-2 sidebar">
+      <dt ng-if-start="project.roles">Roles</dt>
       <dd ng-if-end>
         <ul  class="list-unstyled">
-          <li ng-repeat="line in project.objective" ng-bind="line"></li>
+          <li ng-repeat="line in project.roles" ng-bind-html="line"></li>
         </ul>
       </dd>
-
-      <dt ng-if-start="project.responsibilities">Responsibilities</dt>
+      <dt ng-if-start="project.technologies">Technologies</dt>
       <dd ng-if-end>
         <ul  class="list-unstyled">
-          <li ng-repeat="line in project.responsibilities" ng-bind="line"></li>
-        </ul>
-      </dd>
-
-      <dt ng-if-start="project.achievements">Achievements</dt>
-      <dd ng-if-end>
-        <ul  class="list-unstyled">
-          <li ng-repeat="line in project.achievements" ng-bind="line"></li>
-        </ul>
-      </dd>
-
-      <dt ng-if-start="project.description">Description</dt>
-      <dd ng-if-end>
-        <ul  class="list-unstyled">
-          <li ng-repeat="line in project.description" ng-bind="line"></li>
+          <li ng-repeat="line in project.technologies" ng-bind-html="line"
+              ></li>
         </ul>
       </dd>
     </dl>
-  </span>
-
-
-<span class="col-md-2">
-  <dl>
-    <dt ng-if-start="project.roles">Roles</dt>
-    <dd ng-if-end>
-      <ul  class="list-unstyled">
-        <li ng-repeat="line in project.roles" ng-bind="line"></li>
-      </ul>
-    </dd>
-    <dt ng-if-start="project.technologies">Technologies</dt>
-    <dd ng-if-end>
-      <ul  class="list-unstyled">
-        <li ng-repeat="line in project.technologies" ng-bind="line"></li>
-      </ul>
-    </dd>
-  </dl>
-</span>
-
+    <dl class="col-sm-10 dl-horizontal" >
+      <dt ng-if-start="project.objective">Project Objective</dt>
+      <dd ng-if-end>
+        <ul  class="list-unstyled">
+          <li ng-repeat="line in project.objective" ng-bind-html="line"></li>
+        </ul>
+      </dd>
+      <dt class="visible-xs" ng-if-start="project.roles">Roles</dt>
+      <dd class="visible-xs" ng-if-end>
+        <span  ng-repeat="line in project.roles"
+          ng-bind="($middle ? ', ' : $last && !$first ? ' and ' : '') + line"></span>
+      </dd>
+      <dt ng-if-start="project.responsibilities">Responsibilities</dt>
+      <dd ng-if-end>
+        <ul  class="list-unstyled">
+          <li ng-repeat="line in project.responsibilities" ng-bind-html="line"></li>
+        </ul>
+      </dd>
+      <dt ng-if-start="project.achievements">Achievements</dt>
+      <dd ng-if-end>
+        <ul  class="list-unstyled">
+          <li ng-repeat="line in project.achievements" ng-bind-html="line"></li>
+        </ul>
+      </dd>
+      <dt ng-if-start="project.description">Description</dt>
+      <dd ng-if-end>
+        <ul  class="list-unstyled">
+          <li ng-repeat="line in project.description" ng-bind-html="line"></li>
+        </ul>
+      </dd>
+      <dt class="visible-xs" ng-if-start="project.technologies">Technologies</dt>
+      <dd class="visible-xs" ng-if-end>
+        <span  ng-repeat="line in project.technologies"
+              ng-bind="($middle ? ', ' : $last && !$first ? ' and ' : '') + line"></span>
+      </dd>
+    </dl>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-<!--
-achievements
-description
-responsibilities
-roles
-technologies
-
-dates
-longName
-shortName
-title
-
-
-
-
-
-
-
-
-
-<div class="row" >
-  <span class="col-md-10 title">
-    <h5>
-      <span>{{project.longName}}</span>
-      <small class="text-muted" ng-bind="project.shortName" ng-if="project.shortName"></small>
-    </h5>
-  </span>
-
-  <span class="col-md-2 "
-        date-range="project.dates"
-        date-format="MM/YYYY" ></span>
-
-  <span class="col-xs-12 " >
-    <p ng-repeat="line in project.objective" ng-bind="line"></p>
-  </span>
-</div>
-ng-controller="ProjectController as project"
--->

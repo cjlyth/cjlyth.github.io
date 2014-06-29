@@ -7,9 +7,18 @@
 
 .project .title,
 .orig dt {
-	margin-top: 30px;
+	margin-top: 15px;
+	padding-bottom: 4px;
   border-bottom: 1px solid #ddd;
 }
+
+.sidebar {
+	border-right: 1px solid #ddd;
+}
+
+
+
+
 .orig dd {
    margin-left: 20px;
 }
@@ -28,10 +37,10 @@
   white-space: nowrap;
 }
 
-.orig .tool {
+.tool {
 	font-weight: bold;
 }
-.orig .tool .more.info {
+.tool .more.info {
 	font-weight: lighter;
 }
 
@@ -46,8 +55,8 @@
 
 /*.date.range .divider::before {content: ", ";}*/
 
-.date.range .start { color: red ; }
-.date.range .end { color: green; }
+.date.range .start {  }
+.date.range .end {  }
 
 .date.range .end::before {
 	content: " - ";
@@ -57,4 +66,11 @@
 }
 .list-inline>li.end {
 	padding-left: 0;
+}
+
+.project dd {
+	margin-bottom: 10px;
+}
+.project dd ul {
+	margin: 0;
 }
