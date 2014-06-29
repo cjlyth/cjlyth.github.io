@@ -236,7 +236,7 @@
         "Technical Lead",
         "Lead Developer"
       ],
-      "description": [
+      "achievements": [
         "Designed a swing GUI based on the <span class='tool api platform'>NetBeans platform</span> to visualize and manipulate graph structures",
         "Integrated <span class='tool'>Gephi</span>, <span class='tool'>yFiles</span>, and Booz Allen proprietary code to create a robust information discovery platform",
         "Created API’s and SPI’s for junior team members to use, and mentored as necessary to ensure success"
@@ -254,7 +254,7 @@
         "Technical Lead",
         "Lead Developer"
       ],
-      "description": [
+      "achievements": [
         "Designed an enterprise level system that simulated the infrastructure of the internet for use in training environments",
         "Quickly responded to rapidly evolving client requirements, provide a high level of service and satisfaction to our client",
         "Integrated multiple enterprise open source applications (<span class='tool'>Heritrix</span>, <span class='tool'>Wayback</span>, <span class='tool'>Nutch</span>) to suit the needs of the project",
@@ -276,7 +276,7 @@
       "roles": [
         "Solutions Architect"
       ],
-      "description": [
+      "achievements": [
         "Designed multiple enterprise level OSINT Exploitation systems to suit the needs of various clients",
         "Effectively communicated designs and ideas to various audiences; various techniques were used including, but not limited to, white papers, PowerPoint presentations and verbal. ",
         "Frequently met with senior decision makers within Booz Allen as well as Government Clients",
@@ -298,7 +298,7 @@
         "Project Advisor",
         "Technical Mentor"
       ],
-      "description": [
+      "achievements": [
         "Configured and maintained several Application lifecycle management (ALM) tools for multiple teams",
         "Gained considerable experience with a number of ALM tools including, <span class='alm tool di'>Apache Archiva <span class='more info'>(dependency and release management)</span></span>, <span class='alm tool ci'>Apache Continuum <span class='more info'>(continuous integration server)</span></span>, <span class='alm tool scm'>Subversion <span class='more info'>(source control)</span></span>, <span class='alm tool issue'>Bugzilla <span class='more info'>(issue tracking)</span></span>, <span class='alm tool pm build release'>Apache Maven <span class='more info'>(project management and build tool)</span></span> and a handful of others",
         "Set a high standard for code quality on multiple development teams through mentorship and process improvement",
@@ -316,7 +316,7 @@
         "System Architect",
         "Lead Developer"
       ],
-      "description": [
+      "achievements": [
         "Designed an enterprise level system that integrated behavioral biometrics sensors",
         "Conducted design meetings with clients to ensure requirements were accurately captured",
         "Lead a team of 5 developers that included subcontractors in a distributed environment",
@@ -335,7 +335,7 @@
         "Technical Lead",
         "Lead Developer"
       ],
-      "description": [
+      "achievements": [
         "Designed an enterprise level system that tracked intelligence requirements and products",
         "Conducted meetings with clients to ensure system requirements and design were accurately captured",
         "Primarily used the <span class='tool orm framework'>Hibernate</span>, <span class='tool orm di framework'>Spring</span>, and <span class='tool mvc apache framework'>Apache Wicket</span> frameworks",
@@ -356,7 +356,7 @@
         "Project Advisor",
         "System Architect"
       ],
-      "description": [
+      "achievements": [
         "Attended and coordinated meetings with clients to obtain requirements",
         "Designed a <span class='software design pattern'>Service-oriented architecture (SOA)</span> approach that allowed for modular deployment",
         "Identified technologies and frameworks to be used",
@@ -374,7 +374,7 @@
         "Solution Architect",
         "Lead Developer"
       ],
-      "description": [
+      "achievements": [
         "Attended and coordinated client meetings to obtain requirements",
         "Designed and implemented a fully functioning, proof of concept",
         "Leveraged google alerts using the JavaMail API to parse news alerts",
@@ -396,7 +396,7 @@
         "Solution Architect",
         "Lead Developer"
       ],
-      "description": [
+      "achievements": [
         "Attended and coordinated meetings to identify client requirements",
         "Identified and analyzed many open and closed source tools that provide needed functionality including <span class='tool api soa'>Microsoft Popfly</span>, <span class='tool api soa'>Yahoo Pipes</span> and <span class='tool api soa apache'>Apache Service Mix</span>"
       ]
@@ -411,7 +411,7 @@
       "roles": [
         "Software Developer"
       ],
-      "description": [
+      "achievements": [
         "Consumed and integrated <span class='tool api'>SOAP</span> services that perform various <span class='tool api map gis'>Arc GIS</span> functions",
         "Wrote <span class='tool js pattern'>AJAX</span> components that cleanly integrated with Legacy <span class='tool java'>J2EE</span> components",
         "Designed and implemented <span class='tool java server'>Weblogic</span> portlets, Pageflows and Controls",
@@ -429,7 +429,7 @@
         "Solution Architect",
         "Lead Developer"
       ],
-      "description": [
+      "achievements": [
         "Designed a Rich Internet Application that performed similar functions as a combination of commercial tools",
         "Designed Servlets using the <span class='software design pattern'>REST</span> architectural style",
         "Designed and Implemented a <span class='tool java lang'>JSP</span> “Workbench” that dynamically loaded and persisted its content from REST services",
@@ -455,7 +455,7 @@
       "roles": [
         "Software Developer"
       ],
-      "description": [
+      "achievements": [
         "Fixed defects and made improvements to Swing forms",
         "Maintained XML documents that were responsible for linking view elements with calls to <span class='lang db'>PL/SQL</span> scripts"
       ]
@@ -470,7 +470,7 @@
       "roles": [
         "Software Developer"
       ],
-      "description": [
+      "achievements": [
         "Fixed defects on an existing application that involved creating new and repairing existing <span class='lang db'>PL/SQL</span> scripts",
         "Repaired stateful table links that joined stateful entities from different tables",
         "Designed and coded multiple extract, transform and load (ETL) applications that provided data for a large data warehouse",
@@ -493,7 +493,7 @@
       "roles": [
         "Software Developer"
       ],
-      "description": [
+      "achievements": [
         "Applied the <span class='tool mvc apache framework java tool'>Apache Struts</span> framework to an existing model 2 (non-struts) Java web application",
         "Implemented and customized <span class='tool java apache server tool'>tomcat</span> container managed security infrastructure that allowed for custom Single Sign On functionality",
         "Assisted in the creation and maintenance of <span class='db server java tool'>Oracle</span> Databases",
@@ -510,7 +510,7 @@
       "roles": [
         "Software Developer"
       ],
-      "description": [
+      "achievements": [
         "Worked as a Java developer to integrate various web services",
         "Created JAVA SERVLETS to pass information to a JSP view",
         "Created JAVA SERVER PAGES (JSP) to display content",
@@ -529,7 +529,7 @@
         "2004-05-01"
       ],
       "roles": [],
-      "description": [
+      "achievements": [
         "Gathered and documented requirements",
         "Conducted meetings with clients to review business processes",
         "Gathered requirements from end users and domain experts"

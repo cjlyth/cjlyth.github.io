@@ -19,14 +19,15 @@ angular.module('resumeApp', [
   }
 }])
 .config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/2', {
-    templateUrl: 'partials/resume_v2.html',
-    controller: 'ResumeCtrl'
-  });
-  $routeProvider.when('/', {
+  $routeProvider.when('/1', {
     templateUrl: 'partials/resume.html',
     controller: 'ResumeCtrl'
   });
+  $routeProvider.when('/', {
+    templateUrl: 'partials/resume_v2.html',
+    controller: 'ResumeCtrl'
+  });
+
   $routeProvider.otherwise({
     redirectTo: '/'
   });
