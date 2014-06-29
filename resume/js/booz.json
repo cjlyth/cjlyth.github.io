@@ -23,18 +23,17 @@
         "Design and implement new features as needed",
         "Identify risks and suggest solutions for all development efforts"
       ],
-      "achievements": [],
       "technologies": [
-        "NodeJS", 
-        "AngularJS", 
-        "Elasticsearch", 
-        "Solr", 
-        "Docker", 
-        "Sails.js", 
-        "MongoDB", 
+        "NodeJS",
+        "AngularJS",
+        "Elasticsearch",
+        "Solr",
+        "Docker",
+        "Sails.js",
+        "MongoDB",
         "Bootstrap"
       ],
-      "description": [
+      "achievements": [
         "By diligently identifying risks and facilitating mitigation, team success was significantly improved",
         "Modernized and improved search functionality by advocating replacement of a complex Solr configuration with a much more powerful and simple elasticsearch service"
       ]
@@ -57,14 +56,13 @@
         "Design a solution to a difficult problem that could be completed on a small budget and in a very short period of time",
         "Lead a small team of developers with diverse backgrounds in a high pressure environment"
       ],
-      "achievements": [],
       "technologies": [
-        "Ruby on Rails", 
-        "AngularJS", 
-        "MongoDB", 
+        "Ruby on Rails",
+        "AngularJS",
+        "MongoDB",
         "Bootstrap"
       ],
-      "description": [
+      "achievements": [
         "Identified a core set of requirements from a large complicated problem set resulting in a useful elegant solution ",
         "Designed a very flexible tool that was easily implemented within the allotted month of development time",
         "Leveraged powerful features of angularjs in unconventional ways to provide a high quality product that satisfied our client’s needs",
@@ -90,13 +88,12 @@
         "Managed a team of engineers in a highly dynamic environment",
         "Attended many planning sessions providing technical solutions to a wide range of problems as needed"
       ],
-      "achievements": [],
       "technologies": [
-        "NodeJS", 
-        "Splunk", 
+        "NodeJS",
+        "Splunk",
         "MongoDB"
       ],
-      "description": [
+      "achievements": [
         "Created a platform to run a number of proprietary algorithms",
         "Integrated with a legacy splunk instance that operates as a business intelligence tool for our clients",
         "Designed a number of solutions that became key differentiators in our service offerings"
@@ -121,14 +118,13 @@
         "Recover from multiple missed deliverables",
         "Lead a small team of developers"
       ],
-      "achievements": [],
       "technologies": [
-        "NodeJS", 
-        "AngularJS", 
-        "MongoDB", 
+        "NodeJS",
+        "AngularJS",
+        "MongoDB",
         "Bootstrap"
       ],
-      "description": [
+      "achievements": [
         "Assumed control of a failing project and managed to deliver a product on time",
         "Worked with a dissatisfied client to refine requirements resulting in an entirely new tool in a very short period of time",
         "Improved client relations by delivering a high quality tool, resulting in a long lasting client engagement"
@@ -151,7 +147,6 @@
       "responsibilities": [
         "Design and implement business intelligence (BI) webapp"
       ],
-      "achievements": [],
       "technologies": [
         "NodeJS",
         "Virtuoso",
@@ -159,7 +154,7 @@
         "Bootstrap",
         "MongoDB"
       ],
-      "description": [
+      "achievements": [
         "Joined team that was months behind schedule and successfully delivered a feature complete application within 2 weeks",
         "Established agile processes for a team of junior engineers",
         "Distilled existing requirements into smaller units that enabled incremental development",
@@ -190,7 +185,6 @@
         "Share the project vision with clients and stakeholders",
         "Lead a team of developers"
       ],
-      "achievements": [],
       "technologies": [
         "NodeJS",
         "Virtuoso",
@@ -198,7 +192,7 @@
         "Bootstrap",
         "MongoDB"
       ],
-      "description": [
+      "achievements": [
         "Conveyed a complex architecture by creating diagrams and user stories tailored to a diverse audience ",
         "Earned a reputation across multiple teams as an expert with the technologies",
         "Successfully met every milestone and deliverable on time and feature complete",
@@ -219,13 +213,12 @@
       "responsibilities": [
         "Design and implement modules based on client needs"
       ],
-      "achievements": [],
       "technologies": [
-        "C#", 
-        "Adobe Flex", 
+        "C#",
+        "Adobe Flex",
         "Actionscript"
       ],
-      "description": [
+      "achievements": [
         "Designed and developed a stand alone application to monitor status of remote stations and Buoys in real time",
         "Created a modern and attractive interface using Adobe Flex",
         "Developed multiple modules that became part of a much larger application that was deployed to 6 different client organizations"

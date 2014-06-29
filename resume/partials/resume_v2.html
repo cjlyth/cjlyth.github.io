@@ -1,27 +1,32 @@
-<div class="border example row">
-  <div class="border example col-xs-1">xs-1</div>
-  <div class="border example col-xs-1">xs-1</div>
-  <div class="border example col-xs-1">xs-1</div>
-  <div class="border example col-xs-1">xs-1</div>
-  <div class="border example col-xs-1">xs-1</div>
-  <div class="border example col-xs-1">xs-1</div>
-  <div class="border example col-xs-1">xs-1</div>
-  <div class="border example col-xs-1">xs-1</div>
-  <div class="border example col-xs-1">xs-1</div>
-  <div class="border example col-xs-1">xs-1</div>
-  <div class="border example col-xs-1">xs-1</div>
-  <div class="border example col-xs-1">xs-1</div>
+<div class="row h4" ng-repeat-start="experience in resume.experience | orderBy:dates:true" >
+  <span class="col-md-10" ng-bind="experience.company"></span>
+  <span class="col-md-2 text-right hidden"
+        date-range="experience.dates"
+        date-format="YYYY" ></span>
 </div>
-<h4 class="row " ng-repeat-start="experience in resume.experience | orderBy:dates:true">
-  <span class="border example company name col-xs-9 col-sm-9 col-md-8 col-md-offset-1" ng-bind="experience.company"></span>
-  <small class="border example company date range col-xs-4 col-sm-3 text-right ">
-    <span
-      ng-repeat-start="date in experience.dates track by $index">{{ date | toDate:'YYYY' }}</span>
-    <span ng-repeat-end class="visible-sm" ng-show="!$last" > - </span>
-  </small>
-</h4>
-<div class="row " ng-repeat-end ng-repeat="project in experience.projects | orderBy:dates:true">
-  <div class="col-md-10 col-md-offset-1">
-    <pre ng-bind="project | json"></pre>
+<div class="row" ng-repeat-end
+      ng-repeat="project in experience.projects | orderBy:dates:true">
+  <span class="col-xs-12 project" project="project"></span>
+</div>
+<!--
+
+
+<span ng-repeat-end></span>
+
+
+
+<div class="row h4" >
+  <div class="col-xs-12">
+    <div class="row" cols ></div>
+    <div class-"row"
+          >
+    </div>
   </div>
 </div>
+
+
+ -->
+<!--  project="project"
+<div class="col-md-11 col-md-offset-1">
+  <div ng-repeat="project in experience.projects | orderBy:dates:true" project="project"></div>
+</div> -->

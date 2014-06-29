@@ -5,6 +5,7 @@
 	border: 1px solid rgba(86,61,124,.2);
 }
 
+.project .title,
 .orig dt {
 	margin-top: 30px;
   border-bottom: 1px solid #ddd;
@@ -34,9 +35,26 @@
 	font-weight: lighter;
 }
 
+.project .title small::before,
 .orig .project.short.name::before {
   content: "(";
 }
+.project .title small::after,
 .orig .project.short.name::after {
   content: ")";
+}
+
+/*.date.range .divider::before {content: ", ";}*/
+
+.date.range .start { color: red ; }
+.date.range .end { color: green; }
+
+.date.range .end::before {
+	content: " - ";
+}
+.list-inline>li.start {
+	/*padding-right: 0;*/
+}
+.list-inline>li.end {
+	padding-left: 0;
 }

@@ -7,6 +7,7 @@ angular.module('resumeApp', [
   'ngResource',
   'ngSanitize',
   'resumeApp.filters',
+  'resumeApp.directives',
   'resumeApp.controllers'
 ])
 

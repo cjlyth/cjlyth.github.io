@@ -1,8 +1,11 @@
 'use strict';
 /* Filters */
 angular.module('resumeApp.filters', [])
+
+
 .filter('toDate', ['moment', function(moment) {
 	return function(input, fmt) {
+
 		if (moment) {
 			var d = moment(input, ["YYYY", "YYYY-MM", "YYYY-MM-DD"]);
 			if (!d.isValid()) {
@@ -13,6 +16,14 @@ angular.module('resumeApp.filters', [])
 		} else {
 			return input;
 		}
+	}
+}])
+
+.filter('arrayType', [function() {
+	return function(input) {
+
+		var r = angular.isArray(input)?input:undefined;
+		return r;
 	}
 }])
 ;
