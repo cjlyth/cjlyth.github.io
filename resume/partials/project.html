@@ -1,14 +1,15 @@
-<div class="row title h4">
-    <span class="hidden-xs pull-right small"
-      date-range="project.dates"
-      date-format="MM/YYYY" ></span>
-    <span class="col-sm-9">
+<h3 class="row title">
+    
+    <span class="col-xs-9">
       <span ng-bind="project.longName"></span>
       <small class="text-muted" ng-bind="project.shortName" ng-if="project.shortName"></small>
     </span>
-</div>
 
-<div class="row">
+    <span class="col-xs-3 text-right small"
+      date-range="project.dates"
+      date-format="MM/YYYY" ></span>
+</h3>
+<div class="row details">
     <dl class="hidden-xs col-sm-2 sidebar">
       <dt ng-if-start="project.roles">Roles</dt>
       <dd ng-if-end>
