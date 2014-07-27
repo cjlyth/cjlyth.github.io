@@ -13,10 +13,6 @@ skip_files:
 - ^(.*/)?\.md$
 
 handlers:
-- url: /
-  static_files: resume/index.html
-  upload: resume/index\.html
-
 - url: /favicon\.ico
   static_files: favicon.ico
   upload: favicon\.ico
@@ -35,3 +31,7 @@ handlers:
 
 - url: /partials
   static_dir: resume/partials
+
+- url: /.*
+  static_files: resume/index.html
+  upload: resume/index\.html

@@ -18,7 +18,10 @@ angular.module('resumeApp', [
     console.error('$window.moment was not defined!');
   }
 }])
-.config(['$routeProvider', function($routeProvider) {
+.config(['$routeProvider', '$locationProvider'
+  ,function($routeProvider, $locationProvider) {
+  $locationProvider.html5Mode(true).hashPrefix('!');
+
   $routeProvider.when('/1', {
     templateUrl: 'partials/resume.html',
     controller: 'ResumeCtrl'
